@@ -1,7 +1,56 @@
+body{
+	font-family: 'Archivo', sans-serif;
+}
+
 .container{
 	width: 1000px;
 	margin: 0 auto;
 }
+
+.menu{
+	position: fixed;
+	background-color: #222931;
+	height: 40px;
+	width: 950px;
+	left: 285px;
+	top: 50px;
+}
+
+.nav1{
+	position: fixed;
+	top: 48px;
+	margin-left: 10px;
+	color: #ffffff;
+}
+
+.nav2{
+	position: fixed;
+	top: 48px;
+	margin-left: 75px;
+	color: #ffffff;
+}
+
+.nav3{
+	position: fixed;
+	top: 48px;
+	margin-left: 180px;
+	color: #ffffff;
+}
+
+.nav4{
+	position: fixed;
+	top: 48px;
+	margin-left: 290px;
+	color: #ffffff;
+}
+
+.nav5{
+	position: fixed;
+	top: 48px;
+	margin-left: 375px;
+	color: #ffffff;
+}
+
 
 .logo{
 	margin-left: 150px;
@@ -10,33 +59,75 @@
 }
 
 .header{
-	width: 100%;
+	width: 1000px;
 }
 
 .banner1{
+	width: 300px;
 	margin-top: 50px;
 	margin-left: 50px;
 }
 
 .banner2{
+	width: 300px;
 	margin-top: 50px;
 	padding-left: 10px;
 	padding-right: 10px;
 }
 
 .banner3{
+	width: 300px;
 	margin-top: 50px;
 }
 
 .yellowbar{
-	background-color: yellow;
+	background-color: #ffe718;
 	width: 1000px;
 	height: 100px;
 }
 
-.tekst{
-	position: 
-	padding-top: 45px;
-	padding-left: 100px;
-	text-decoration: bold;
+.yellowbartext{
+	position: relative;
+	top: 45px;
+	left: 200px;
+	font-weight: bold;
+}
+
+.footer{
+	width: 1000px;
+	padding-top: 30px;
+}
+
+.handshake{
+	position: relative;
+	background-color: #ffe718;
+	height: 100px;
+	width: 200px;
+	bottom: 50px;
+	left: 100px;
+}
+
+.tas{
+	position: relative;
+	background-color: #ffe718;
+	height: 100px;
+	width: 200px;
+	bottom: 150px;
+	left: 400px;
+}
+
+.brief{
+	position: relative;
+	background-color: #ffe718;
+	height: 100px;
+	width: 200px;
+	bottom: 250px;
+	left: 700px;
+}
+
+.balk{
+	position: relative;
+	color: black;
+	width: 800px;
+	bottom: 200px;
 }
