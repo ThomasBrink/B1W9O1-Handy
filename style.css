@@ -30,6 +30,24 @@ body{
 	color: #ffffff;
 }
 
+.submenu{
+	opacity: 0;
+}
+
+.nav2:hover .submenu{
+	position: absolute;
+	opacity: 1;
+	background-color: #222931;
+	top: 20px;
+	left: 20px;
+	padding: 15px;
+}
+
+.link{
+	text-decoration: none;
+	color: white;
+}
+
 .nav3{
 	position: fixed;
 	top: 48px;
@@ -63,27 +81,99 @@ body{
 }
 
 .banner1{
+	position: relative;
+	background: url('img/banner-1.jpg');
+	top: 50px;
+	left: 30px;
 	width: 300px;
-	margin-top: 50px;
-	margin-left: 50px;
+	height: 200px;
+	background-size: cover;
+
+}
+
+.banner1child{
+	width: 300px;
+	height: 200px;
+	background-color:rgba(0,0,0,0.5);
+	cursor: pointer;
+	display: none;
+}
+
+.banner1:hover .banner1child{
+	display: inline-block;
+}
+
+.GesText{
+	color: white;
+	line-height: 200px;
+	text-align: center;
+	margin: 0;
 }
 
 .banner2{
+	position: relative;
+	background: url('img/banner-2.jpg');
 	width: 300px;
-	margin-top: 50px;
-	padding-left: 10px;
-	padding-right: 10px;
+	height: 200px;
+	background-size: cover;
+	left: 345px;
+	bottom: 150px;
+}
+
+.banner2child{
+	width: 300px;
+	height: 200px;
+	background-color:rgba(0,0,0,0.5);
+	cursor: pointer;
+	display: none;
+}
+
+.banner2:hover .banner2child{
+	display: inline-block;
+}
+
+.DealText{
+	color: white;
+	line-height: 200px;
+	text-align: center;
+	margin: 0;
 }
 
 .banner3{
+	position: relative;
+	background: url('img/banner-3.jpg');
 	width: 300px;
-	margin-top: 50px;
+	height: 200px;
+	background-size: cover;
+	bottom: 350px;
+	left: 660px;
+}
+
+.banner3child{
+	width: 300px;
+	height: 200px;
+	background-color:rgba(0,0,0,0.5);
+	cursor: pointer;
+	display: none;
+}
+
+.banner3:hover .banner3child{
+	display: inline-block;
+}
+
+.DiensText{
+	color: white;
+	line-height: 200px;
+	text-align: center;
+	margin: 0;
 }
 
 .yellowbar{
+	position: relative;
 	background-color: #ffe718;
 	width: 1000px;
 	height: 100px;
+	bottom: 300px;
 }
 
 .yellowbartext{
@@ -94,8 +184,10 @@ body{
 }
 
 .footer{
+	position: relative;
 	width: 1000px;
 	padding-top: 30px;
+	bottom: 300px;
 }
 
 .handshake{
@@ -103,7 +195,7 @@ body{
 	background-color: #ffe718;
 	height: 100px;
 	width: 200px;
-	bottom: 50px;
+	bottom: 350px;
 	left: 100px;
 }
 
@@ -112,7 +204,7 @@ body{
 	background-color: #ffe718;
 	height: 100px;
 	width: 200px;
-	bottom: 150px;
+	bottom: 450px;
 	left: 400px;
 }
 
@@ -121,7 +213,7 @@ body{
 	background-color: #ffe718;
 	height: 100px;
 	width: 200px;
-	bottom: 250px;
+	bottom: 550px;
 	left: 700px;
 }
 
@@ -129,5 +221,50 @@ body{
 	position: relative;
 	color: black;
 	width: 800px;
-	bottom: 200px;
+	bottom: 500px;
+}
+
+.OverText{
+	position: relative;
+	bottom: 450px;
+	left: 100px;
+}
+
+.Overlorem{
+	position: relative;
+	left: 100px;
+	bottom: 430px;
+	margin-right: 600px;
+}
+
+.ContactTitle{
+	position: relative;
+	bottom: 673px;
+	left: 700px;
+}
+
+.contact1{
+	position: relative;
+	font-weight: normal;
+	left: 700px;
+	bottom: 653px;
+	font-size: 15px;
+	padding: 0px;
+}
+
+.footerbar{
+	position: relative;
+	background-color: #222931;
+	width: 1000px;
+	height: 50px;
+	bottom: 600px;
+}
+
+.footernaam{
+	position: relative;
+	color: white;
+	font-size: 16px;
+	font-weight: normal;
+	top: 15px;
+	left: 800px;
 }
