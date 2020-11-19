@@ -14,6 +14,7 @@ body{
 	width: 950px;
 	left: 285px;
 	top: 50px;
+	z-index: 1;
 }
 
 .nav1{
@@ -267,4 +268,25 @@ body{
 	font-weight: normal;
 	top: 15px;
 	left: 800px;
+}
+
+.SecPtext1{
+	position: relative;
+	width: 900px;
+	height: 700px;
+	left: 50px;
+}
+
+.TextP1{
+	margin-top: 50px;
+}
+
+.SecTitle{
+	position: relative;
+	top: 30px;
+}
+
+.pijl{
+	position: relative;
+	top: 20px;
 }
