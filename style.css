@@ -32,6 +32,7 @@ body{
 }
 
 .nav2{
+	background-color: #222931;
 	position: fixed;
 	top: 48px;
 	margin-left: 75px;
@@ -59,6 +60,7 @@ body{
 }
 
 .nav3{
+	background-color: #222931;
 	position: fixed;
 	top: 48px;
 	margin-left: 180px;
@@ -67,6 +69,7 @@ body{
 }
 
 .nav4{
+	background-color: #222931;
 	position: fixed;
 	top: 48px;
 	margin-left: 290px;
@@ -75,6 +78,7 @@ body{
 }
 
 .nav5{
+	background-color: #222931;
 	position: fixed;
 	top: 48px;
 	margin-left: 375px;
@@ -198,8 +202,31 @@ body{
 .yellowbartext{
 	position: relative;
 	top: 45px;
-	left: 200px;
+	left: 180px;
 	font-weight: bold;
+	font-size: 28px;
+}
+
+.yellowbartext2{
+	position: relative;
+	bottom: 4px;
+	left: 490px;
+	font-weight: bold;
+}
+
+.meerweten{
+	position: relative;
+	font-size: 14px;
+	bottom: 50px;
+	left: 790px;
+	width: 100px;
+	height: 20px;
+	padding: 5px;
+	line-height: 20px;
+	text-align: center;	 
+	font-weight: bold;
+	background-color: white;
+	
 }
 
 .footer{
@@ -218,10 +245,6 @@ body{
 	left: 100px;
 }
 
-i:nth-of-type(1){
-	size: 100px;
-}
-
 .Handtext{
 	position: relative;
 	left: 70px;
@@ -237,6 +260,13 @@ i:nth-of-type(1){
 	width: 200px;
 	bottom: 450px;
 	left: 400px;
+}
+
+.posbrief{
+	position: relative;
+	bottom: 650px;
+	left: 450px;
+	font-weight: 500px;
 }
 
 .brief{
@@ -341,4 +371,12 @@ i:nth-of-type(1){
 .test:hover .test2{
 	position: absolute;
 	display: inline-block;
+}
+
+.Yellowbartext{
+	position: relative;
+	top: 45px;
+	left: 150px;
+	font-weight: bold;
+	font-size: 28px;
 }
