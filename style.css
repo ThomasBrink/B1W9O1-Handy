@@ -1,3 +1,9 @@
+*{
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 500px;
+}
+
 body{
 	font-family: 'Archivo', sans-serif;
 }
@@ -22,6 +28,7 @@ body{
 	top: 48px;
 	margin-left: 10px;
 	color: #ffffff;
+	font-size: 12px;
 }
 
 .nav2{
@@ -29,6 +36,7 @@ body{
 	top: 48px;
 	margin-left: 75px;
 	color: #ffffff;
+	font-size: 12px;
 }
 
 .submenu{
@@ -47,6 +55,7 @@ body{
 .link{
 	text-decoration: none;
 	color: white;
+	font-size: 16px;
 }
 
 .nav3{
@@ -54,6 +63,7 @@ body{
 	top: 48px;
 	margin-left: 180px;
 	color: #ffffff;
+	font-size: 12px;
 }
 
 .nav4{
@@ -61,6 +71,7 @@ body{
 	top: 48px;
 	margin-left: 290px;
 	color: #ffffff;
+	font-size: 12px;
 }
 
 .nav5{
@@ -68,6 +79,7 @@ body{
 	top: 48px;
 	margin-left: 375px;
 	color: #ffffff;
+	font-size: 12px;
 }
 
 
@@ -109,6 +121,8 @@ body{
 	line-height: 200px;
 	text-align: center;
 	margin: 0;
+	font-size: 32px;
+	font-weight: 600px;	
 }
 
 .banner2{
@@ -138,6 +152,8 @@ body{
 	line-height: 200px;
 	text-align: center;
 	margin: 0;
+	font-size: 32px;
+	font-weight: 600px;
 }
 
 .banner3{
@@ -167,6 +183,8 @@ body{
 	line-height: 200px;
 	text-align: center;
 	margin: 0;
+	font-size: 32px;
+	font-weight: 600px;
 }
 
 .yellowbar{
@@ -198,6 +216,18 @@ body{
 	width: 200px;
 	bottom: 350px;
 	left: 100px;
+}
+
+i:nth-of-type(1){
+	size: 100px;
+}
+
+.Handtext{
+	position: relative;
+	left: 70px;
+	bottom: 20px;
+	font-weight: bold;
+	font-size: 18px;
 }
 
 .tas{
@@ -240,7 +270,7 @@ body{
 
 .ContactTitle{
 	position: relative;
-	bottom: 673px;
+	bottom: 720px;
 	left: 700px;
 }
 
@@ -248,7 +278,7 @@ body{
 	position: relative;
 	font-weight: normal;
 	left: 700px;
-	bottom: 653px;
+	bottom: 703px;
 	font-size: 15px;
 	padding: 0px;
 }
@@ -268,6 +298,7 @@ body{
 	font-weight: normal;
 	top: 15px;
 	left: 800px;
+
 }
 
 .SecPtext1{
@@ -289,4 +320,25 @@ body{
 .pijl{
 	position: relative;
 	top: 20px;
+}
+
+.test{
+	position: relative;
+	color: #ffe718;
+}
+.test2{
+	color: white;
+	font-size: 13px;
+	line-height: 15px;
+	width: 100px;
+	padding: 5px;
+	top: 20px;
+	left: 5px;
+	background-color: #aeb6be;
+	display: none;
+}
+
+.test:hover .test2{
+	position: absolute;
+	display: inline-block;
 }
